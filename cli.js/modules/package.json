@@ -1,0 +1,12 @@
+{
+  "name": "cli-modules",
+  "version": "1.0.0",
+  "description": "重构的模块化CLI",
+  "main": "index.js",
+  "dependencies": {
+    "lodash.merge": "^4.6.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

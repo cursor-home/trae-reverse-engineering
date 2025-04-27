@@ -1,0 +1,14 @@
+{
+  "name": "trae-reverse-engineering",
+  "version": "1.0.0",
+  "description": "用于拆分和分析Trae.js代码的工具",
+  "main": "main.js",
+  "scripts": {
+    "format": "node format-code.js",
+    "split": "node split-code.js",
+    "analyze": "npm run format && npm run split"
+  },
+  "dependencies": {
+    "prettier": "^2.8.8"
+  }
+} 

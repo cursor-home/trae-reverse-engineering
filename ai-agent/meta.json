@@ -1,0 +1,16 @@
+{
+  "name": "ai-agent",
+  "version": "1.0.0-alpha.0",
+  "entry": "start.sh",
+  "entry_windows": "start.bat",
+  "args": [],
+  "activationEvents": ["*"],
+  "contributes": {},
+  "connections": [
+    {
+      "socket": {
+        "port": 40005
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[Sections]
+
+nth paddr           size vaddr           vsize perm type              name
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00003e00  0x9edb7c 0x100003e00  0x9edb7c -r-x REGULAR           0.__TEXT.__text
+1   0x009f197c    0x1068 0x1009f197c    0x1068 -r-x SYMBOL_STUBS      1.__TEXT.__stubs
+2   0x009f29e4       0x4 0x1009f29e4       0x4 -r-x INIT_FUNC_OFFSETS 2.__TEXT.__init_offsets
+3   0x009f2a00  0xdec614 0x1009f2a00  0xdec614 -r-x REGULAR           3.__TEXT.__const
+4   0x017df014    0x1c20 0x1017df014    0x1c20 -r-x REGULAR           4.__TEXT.__gcc_except_tab
+5   0x017e0c34   0x19fae 0x1017e0c34   0x19fae -r-x CSTRINGS          5.__TEXT.__cstring
+6   0x017fabe2      0x36 0x1017fabe2      0x36 -r-x CSTRINGS          6.__TEXT.__oslogstring
+7   0x017fac18   0x16c08 0x1017fac18   0x16c08 -r-x REGULAR           7.__TEXT.__unwind_info
+8   0x01811820   0x12780 0x101811820   0x12780 -r-x REGULAR           8.__TEXT.__eh_frame
+9   0x01824000     0xc10 0x101824000     0xc10 -rw- NONLAZY_POINTERS  9.__DATA_CONST.__got
+10  0x01824c10  0x22ab70 0x101824c10  0x22ab70 -rw- REGULAR           10.__DATA_CONST.__const
+11  0x01a4f780      0x60 0x101a4f780      0x60 -rw- REGULAR           11.__DATA_CONST.__cfstring
+12  0x01a50000   0x11a20 0x101a50000   0x11a20 -rw- REGULAR           12.__DATA.__data
+13  0x01a61a20     0x390 0x101a61a20     0x390 -rw- TLS_VARIABLES     13.__DATA.__thread_vars
+14  0x01a61db0      0xb0 0x101a61db0      0xb0 -rw- TLS_REGULAR       14.__DATA.__thread_data
+15  0x00000000     0x660 0x101a61e60     0x660 -rw- TLS_ZEROFILL      15.__DATA.__thread_bss
+16  0x00000000       0x0 0x101a624c0    0x1460 -rw- ZEROFILL          16.__DATA.__bss
+17  0x00000000       0x0 0x101a63920      0x30 -rw- ZEROFILL          17.__DATA.__common
+

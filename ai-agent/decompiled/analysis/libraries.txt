@@ -1,0 +1,11 @@
+[Linked libraries]
+/System/Library/Frameworks/Security.framework/Versions/A/Security
+/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+/usr/lib/libz.1.dylib
+/usr/lib/libiconv.2.dylib
+/usr/lib/libSystem.B.dylib
+
+8 libraries

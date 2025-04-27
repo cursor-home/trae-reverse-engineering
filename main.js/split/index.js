@@ -1,0 +1,34 @@
+// 主索引文件 - 导出所有模块
+
+export { __extends } from './functions/__extends.js';
+export { __assign } from './variables/__assign.js';
+export { __rest } from './functions/__rest.js';
+export { __decorate } from './functions/__decorate.js';
+export { __param } from './functions/__param.js';
+export { __esDecorate } from './functions/__esDecorate.js';
+export { __runInitializers } from './functions/__runInitializers.js';
+export { __propKey } from './functions/__propKey.js';
+export { __setFunctionName } from './functions/__setFunctionName.js';
+export { __metadata } from './functions/__metadata.js';
+export { __awaiter } from './functions/__awaiter.js';
+export { __generator } from './functions/__generator.js';
+export { __createBinding } from './variables/__createBinding.js';
+export { __exportStar } from './functions/__exportStar.js';
+export { __values } from './functions/__values.js';
+export { __read } from './functions/__read.js';
+export { __spread } from './functions/__spread.js';
+export { __spreadArrays } from './functions/__spreadArrays.js';
+export { __spreadArray } from './functions/__spreadArray.js';
+export { __await } from './functions/__await.js';
+export { __asyncGenerator } from './functions/__asyncGenerator.js';
+export { __asyncDelegator } from './functions/__asyncDelegator.js';
+export { __asyncValues } from './functions/__asyncValues.js';
+export { __makeTemplateObject } from './functions/__makeTemplateObject.js';
+export { __importStar } from './functions/__importStar.js';
+export { __importDefault } from './functions/__importDefault.js';
+export { __classPrivateFieldGet } from './functions/__classPrivateFieldGet.js';
+export { __classPrivateFieldSet } from './functions/__classPrivateFieldSet.js';
+export { __classPrivateFieldIn } from './functions/__classPrivateFieldIn.js';
+export { __addDisposableResource } from './functions/__addDisposableResource.js';
+export { __disposeResources } from './functions/__disposeResources.js';
+export { default } from './default/default.js';
