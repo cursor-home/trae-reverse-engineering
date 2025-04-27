@@ -45,3 +45,23 @@ Trae.app/Contents/Resources/app/node_modules.asar
 *.swp
 *.swo
 .cache
+
+# 超出GitHub大小限制的文件
+ai-agent/decompiled/assembly/ai-agent.asm
+ai-agent/decompiled/assembly/full_disassembly.asm
+Trae.app/Contents/Frameworks/Electron Framework.framework/Electron Framework
+Trae.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework
+Trae.app/Contents/Frameworks/Electron Framework.framework/Versions/Current/Electron Framework
+# 排除整个Trae.app目录，因为其中包含了很多二进制文件
+Trae.app/
+# 排除其他可能超出GitHub限制的大型二进制文件
+*.framework
+*.dylib
+*.so
+*.dll
+*.exe
+*.app
+*.bin
+*.obj
+*.o
+*.wasm
